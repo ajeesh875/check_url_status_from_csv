@@ -39,9 +39,9 @@ def check_website_status(csv_file, sender_email, receiver_email, password):
 # Example usage
 def main():
     csv_file = 'websites.csv'
-    sender_email = 'ajeesh875@gmail.com'
-    receiver_email = 'ajeeshmukaluvila@gmail.com'
-    password = 'nryzgbzatpjgkfnu'
+    sender_email = 'sender@gmail.com'
+    receiver_email = 'receiver@gmail.com'
+    password = 'password here'
 
     check_website_status(csv_file, sender_email, receiver_email, password)
 
