@@ -9,6 +9,7 @@ def send_email(subject, body, sender_email, receiver_email, password):
     message["From"] = sender_email
     message["To"] = receiver_email
 
+    
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(sender_email, password)
         server.sendmail(sender_email, receiver_email, message.as_string())
